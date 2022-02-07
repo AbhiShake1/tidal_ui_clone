@@ -17,6 +17,7 @@ const List<String> routes = [
 Route generateRoutes(RouteSettings settings) {
   return PageRouteBuilder(
     settings: settings,
+    transitionDuration: const Duration(microseconds: 0),
     pageBuilder: (_, __, ___) {
       switch (settings.name) {
         case searchPageRoute:
