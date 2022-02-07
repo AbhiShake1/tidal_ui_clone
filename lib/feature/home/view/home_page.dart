@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:tidal_ui_clone/feature/navigation/view/custom_navigation_bar.dart';
 import 'package:tidal_ui_clone/core/components/widgets/custom_stacked_slider.dart';
 import 'package:velocity_x/velocity_x.dart';
 
@@ -20,6 +21,7 @@ class HomePage extends StatelessWidget {
           )
         ],
       ),
+      bottomNavigationBar: const CustomNavigationBar(),
       body: ListView(
         physics: const BouncingScrollPhysics(),
         children: [
