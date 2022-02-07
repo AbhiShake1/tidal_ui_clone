@@ -1,6 +1,7 @@
 import 'dart:ui';
 
 import 'package:flutter/material.dart';
+import 'package:tidal_ui_clone/core/components/widgets/custom_image_builder.dart';
 import 'package:velocity_x/velocity_x.dart';
 
 class CustomStackedSlider extends StatelessWidget {
@@ -25,12 +26,10 @@ class CustomStackedSlider extends StatelessWidget {
                 width: 200,
                 decoration: const BoxDecoration(
                   borderRadius: BorderRadius.all(Radius.circular(10)),
-                  image: DecorationImage(
-                    image: NetworkImage(
+                ),
+                child: const CustomImageBuilder(
+                  imageUrl:
                       'https://i1.sndcdn.com/avatars-1ZsDzgJytgW9ypph-RVtCxA-t500x500.jpg',
-                    ),
-                    fit: BoxFit.cover,
-                  ),
                 ),
               ).pOnly(bottom: 10, right: 10),
               Positioned(
