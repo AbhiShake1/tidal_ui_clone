@@ -15,9 +15,9 @@ const List<String> routes = [
 ];
 
 Route generateRoutes(RouteSettings settings) {
-  return MaterialPageRoute(
+  return PageRouteBuilder(
     settings: settings,
-    builder: (context) {
+    pageBuilder: (_, __, ___) {
       switch (settings.name) {
         case searchPageRoute:
           return const SearchPage();
