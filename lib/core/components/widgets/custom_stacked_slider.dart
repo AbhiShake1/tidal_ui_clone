@@ -5,15 +5,19 @@ import 'package:tidal_ui_clone/core/components/widgets/custom_image_builder.dart
 import 'package:velocity_x/velocity_x.dart';
 
 class CustomStackedSlider extends StatelessWidget {
-  const CustomStackedSlider({Key? key, this.isForYouView = false}) : super(key: key);
+  const CustomStackedSlider(
+      {Key? key, this.isForYouView = false, this.showCenteredPlayer = false})
+      : super(key: key);
 
   final bool isForYouView;
+  final bool showCenteredPlayer;
 
   @override
   Widget build(BuildContext context) {
+    final double mainHeight = isForYouView ? 420 : 350;
     return SizedBox(
       width: context.screenWidth,
-      height: isForYouView ? 420 : 350,
+      height: mainHeight,
       child: ListView(
         physics: const BouncingScrollPhysics(),
         scrollDirection: Axis.horizontal,
@@ -66,6 +70,20 @@ class CustomStackedSlider extends StatelessWidget {
                     ),
                   ),
                 ),
+                if (showCenteredPlayer)
+                  Positioned(
+                    bottom: mainHeight / 2,
+                    right: 0,
+                    left: 0,
+                    child: FloatingActionButton(
+                      hoverElevation: 60,
+                      onPressed: () => debugPrint('Play button tapped'),
+                      child: const Icon(
+                        Icons.play_arrow,
+                      ),
+                      backgroundColor: Colors.white,
+                    ),
+                  ),
               ],
             ),
           ),

@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:tidal_ui_clone/core/components/widgets/custom_stacked_slider.dart';
+import 'package:tidal_ui_clone/core/components/widgets/view_all_button.dart';
 import 'package:tidal_ui_clone/feature/navigation/view/custom_navigation_bar.dart';
 import 'package:velocity_x/velocity_x.dart';
 
@@ -33,23 +34,10 @@ class HomePage extends StatelessWidget {
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
               'Mixes For You'.text.bold.xl2.make().pOnly(bottom: 5),
-              TextButton(
-                child: Card(
-                  color: context.backgroundColor.withBlue(110).withOpacity(0.4),
-                  shape: const RoundedRectangleBorder(
-                    borderRadius: BorderRadius.all(Radius.circular(10)),
-                  ),
-                  child: 'VIEW ALL'
-                      .text
-                      .subtitle2(context)
-                      .make()
-                      .pSymmetric(v: 5, h: 8),
-                ),
-                onPressed: () {},
-              ),
+              const ViewAllButton(),
             ],
           ),
-          const CustomStackedSlider(),
+          const CustomStackedSlider(showCenteredPlayer: true),
         ],
       ).pOnly(left: 15),
     );
