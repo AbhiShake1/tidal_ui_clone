@@ -9,14 +9,15 @@ class CustomButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return CupertinoButton(
-      child: text.text
-          .subtitle2(context)
-          .make()
-          .pSymmetric(v: 5, h: 8)
-          .card
-          .roundedSM
-          .make(),
-      onPressed: () => debugPrint('View All pressed'),
+      child: Container(
+        padding: const EdgeInsets.symmetric(vertical: 8, horizontal: 12),
+        decoration: BoxDecoration(
+          borderRadius: BorderRadius.circular(10),
+          color: context.cardColor,
+        ),
+        child: text.text.subtitle2(context).make(),
+      ),
+      onPressed: () => debugPrint('Custom Button pressed'),
     );
   }
 }

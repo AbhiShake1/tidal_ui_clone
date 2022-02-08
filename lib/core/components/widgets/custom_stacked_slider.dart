@@ -6,11 +6,15 @@ import 'package:velocity_x/velocity_x.dart';
 
 class CustomStackedSlider extends StatelessWidget {
   const CustomStackedSlider(
-      {Key? key, this.isForYouView = false, this.showCenteredPlayer = false})
+      {Key? key,
+      this.isForYouView = false,
+      this.showCenteredPlayer = false,
+      this.isCircular = false})
       : super(key: key);
 
   final bool isForYouView;
   final bool showCenteredPlayer;
+  final bool isCircular;
 
   @override
   Widget build(BuildContext context) {
@@ -28,8 +32,9 @@ class CustomStackedSlider extends StatelessWidget {
             child: Stack(
               children: [
                 CustomImageBuilder(
-                  imageUrl:
-                      'https://i1.sndcdn.com/avatars-1ZsDzgJytgW9ypph-RVtCxA-t500x500.jpg',
+                  imageUrl: 'https://picsum.photos/200',
+                  //'https://i1.sndcdn.com/avatars-1ZsDzgJytgW9ypph-RVtCxA-t500x500.jpg',
+                  isCircular: isCircular,
                   width: isForYouView ? 270 : 180,
                   height: isForYouView ? 500 : 180,
                 ),

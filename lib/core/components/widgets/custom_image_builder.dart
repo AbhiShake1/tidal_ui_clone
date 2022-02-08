@@ -4,17 +4,26 @@ import 'package:velocity_x/velocity_x.dart';
 
 class CustomImageBuilder extends StatelessWidget {
   const CustomImageBuilder(
-      {Key? key, required this.imageUrl, this.height = 180, this.width = 180})
+      {Key? key,
+      required this.imageUrl,
+      this.height = 180,
+      this.width = 180,
+      this.isCircular = false})
       : super(key: key);
 
   final String imageUrl;
   final double height;
   final double width;
+  final bool isCircular;
 
   @override
   Widget build(BuildContext context) {
-    return ClipRRect(
-      borderRadius: const BorderRadius.all(Radius.circular(10)),
+    return Container(
+      decoration: BoxDecoration(
+        shape: isCircular ? BoxShape.circle : BoxShape.rectangle,
+        borderRadius:
+            isCircular ? null : const BorderRadius.all(Radius.circular(10)),
+      ),
       clipBehavior: Clip.hardEdge,
       child: CachedNetworkImage(
         height: height,
@@ -29,7 +38,7 @@ class CustomImageBuilder extends StatelessWidget {
               Text(
                 progress.progress == null
                     ? 'Almost done'
-                    : '${progress.progress! * 100}%',
+                    : '${(progress.progress! * 100).toStringAsFixed(1)}%',
               )
             ],
           ),

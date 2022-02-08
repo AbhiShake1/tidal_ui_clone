@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:tidal_ui_clone/core/components/widgets/custom_stacked_slider.dart';
+import 'package:tidal_ui_clone/core/components/widgets/text_icon_appbar.dart';
 import 'package:tidal_ui_clone/feature/navigation/view/custom_navigation_bar.dart';
 import 'package:velocity_x/velocity_x.dart';
 
@@ -11,15 +12,9 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(
-        title: 'Home'.text.extraBold.xl4.make(),
-        automaticallyImplyLeading: false,
-        actions: [
-          IconButton(
-            icon: const Icon(Icons.notifications_none_rounded),
-            onPressed: () {},
-          )
-        ],
+      appBar: const TextIconAppBar(
+        title: 'Home',
+        icon: Icons.notifications_none_rounded,
       ),
       bottomNavigationBar: const CustomNavigationBar(),
       body: ListView(
@@ -35,6 +30,8 @@ class HomePage extends StatelessWidget {
             showButton: true,
           ),
           const CustomStackedSlider(showCenteredPlayer: true),
+          const TitleRow(title: 'Because You Listened to Astrid S'),
+          const CustomStackedSlider(isCircular: true),
         ],
       ).pOnly(left: 15),
     );

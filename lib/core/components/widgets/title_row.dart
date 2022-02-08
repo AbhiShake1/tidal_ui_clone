@@ -23,6 +23,6 @@ class TitleRow extends StatelessWidget {
         title.text.bold.xl2.make().pOnly(bottom: 5),
         if (showButton) CustomButton(text: buttonTitle),
       ],
-    );
+    ).pOnly(left: 15);
   }
 }
