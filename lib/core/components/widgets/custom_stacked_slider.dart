@@ -75,7 +75,7 @@ class CustomStackedSlider extends StatelessWidget {
                     bottom: mainHeight / 2,
                     right: 0,
                     left: 0,
-                    child: FloatingActionButton(
+                    child: FloatingActionButton.small(
                       hoverElevation: 60,
                       onPressed: () => debugPrint('Play button tapped'),
                       child: const Icon(
