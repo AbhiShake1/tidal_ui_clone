@@ -125,7 +125,7 @@ class SearchPage extends StatelessWidget {
           ),
           CustomIconButton(
             label: 'Shows & Podcasts',
-            icon: Icons.podcasts_rounded,
+            icon: Icons.settings_input_antenna,
           ),
           CustomIconButton(
             label: 'TIDAL Rising',
