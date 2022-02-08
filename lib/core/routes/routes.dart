@@ -8,6 +8,8 @@ const String homePageRoute = '/home';
 const String searchPageRoute = '/search';
 const String favPageRoute = '/fav';
 
+//not really a good thing to do
+//#TODO: find a better workaround?
 const List<String> routes = [
   homePageRoute,
   searchPageRoute,

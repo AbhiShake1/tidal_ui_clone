@@ -27,6 +27,8 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.teal,
         scaffoldBackgroundColor: Colors.black,
         canvasColor: Colors.black,
+        splashColor: Colors.transparent,
+        highlightColor: Colors.transparent,
         textTheme: GoogleFonts.vartaTextTheme().apply(
           bodyColor: Colors.white,
         ),
