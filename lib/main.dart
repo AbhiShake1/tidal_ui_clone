@@ -29,6 +29,10 @@ class MyApp extends StatelessWidget {
         canvasColor: Colors.black,
         splashColor: Colors.transparent,
         highlightColor: Colors.transparent,
+        appBarTheme: const AppBarTheme(
+          color: Colors.transparent,
+          elevation: 0,
+        ),
         textTheme: GoogleFonts.vartaTextTheme().apply(
           bodyColor: Colors.white,
         ),
