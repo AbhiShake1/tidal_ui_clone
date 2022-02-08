@@ -1,8 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:tidal_ui_clone/core/components/widgets/custom_stacked_slider.dart';
-import 'package:tidal_ui_clone/core/components/widgets/custom_button.dart';
 import 'package:tidal_ui_clone/feature/navigation/view/custom_navigation_bar.dart';
 import 'package:velocity_x/velocity_x.dart';
+
+import '../../../core/components/widgets/title_row.dart';
 
 class HomePage extends StatelessWidget {
   const HomePage({Key? key}) : super(key: key);
@@ -24,16 +25,14 @@ class HomePage extends StatelessWidget {
       body: ListView(
         physics: const BouncingScrollPhysics(),
         children: [
-          'Recently Played'.text.bold.xl2.make().pOnly(top: 25, bottom: 5),
+          20.heightBox,
+          const TitleRow(title: 'Recently Played'),
           const CustomStackedSlider(),
-          'For You'.text.bold.xl2.make().pOnly(bottom: 5),
+          const TitleRow(title: 'For You'),
           const CustomStackedSlider(isForYouView: true),
-          Row(
-            mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: [
-              'Mixes For You'.text.bold.xl2.make().pOnly(bottom: 5),
-              const CustomButton(text: 'VIEW ALL'),
-            ],
+          const TitleRow(
+            title: 'Mixes For You',
+            showButton: true,
           ),
           const CustomStackedSlider(showCenteredPlayer: true),
         ],
