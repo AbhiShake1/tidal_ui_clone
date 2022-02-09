@@ -31,17 +31,7 @@ class CustomImageBuilder extends StatelessWidget {
         fit: BoxFit.cover,
         imageUrl: imageUrl,
         progressIndicatorBuilder: (_, __, progress) => Center(
-          child: Stack(
-            alignment: Alignment.center,
-            children: [
-              CircularProgressIndicator(value: progress.progress),
-              Text(
-                progress.progress == null
-                    ? 'Almost done'
-                    : '${(progress.progress! * 100).toStringAsFixed(1)}%',
-              )
-            ],
-          ),
+          child: LinearProgressIndicator(value: progress.progress),
         ),
         errorWidget: (_, __, ___) => const Icon(Icons.error),
       ),

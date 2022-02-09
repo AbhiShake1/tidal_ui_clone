@@ -1,0 +1,457 @@
+{
+  "recently played": [
+    {
+      "title1": null,
+      "singer": "Astrid",
+      "by": "by Me",
+      "noOfTracks": "65 TRACKS",
+      "imageUrl": "https://www.europavox.com/wp-content/uploads/2017/03/astrid-s-2019.jpg"
+    },
+    {
+      "title1": null,
+      "singer": "Sonu Nigam",
+      "by": "Album by Sonu Nigam",
+      "noOfTracks": "2019",
+      "imageUrl": "https://www.bollywoodhungama.com/wp-content/uploads/2020/08/Sonu-Nigam-to-performing-at-world%E2%80%99s-first-live-indoor-music-concert-since-Covid-19-hit.jpg"
+    },
+    {
+      "title1": null,
+      "singer": "My Daily Discovery",
+      "by": "Songs by new and familiar...",
+      "noOfTracks": null,
+      "imageUrl": "https://tidal.com/_nuxt/img/mydailydiscovery-cover.c049cc2.jpg"
+    },
+    {
+      "title1": null,
+      "singer": "Indian Classical Music",
+      "by": "Album by The Time Of Meditation",
+      "noOfTracks": "2021",
+      "imageUrl": "https://media-gadventures.global.ssl.fastly.net/media-server/dynamic/blogs/posts/peter-west-carey/2013/03/Peter-West-Carey-India2012-0421-1223-2.jpg"
+    },
+    {
+      "title1": null,
+      "singer": "Sing It With Me",
+      "by": "Track Radio",
+      "noOfTracks": null,
+      "imageUrl": "https://i.ytimg.com/vi/7QxyzpXeuCk/maxresdefault.jpg"
+    },
+    {
+      "title1": null,
+      "singer": "Favs_",
+      "by": "by Me",
+      "noOfTracks": "442 ITEMS",
+      "imageUrl": "https://resources.tidal.com/images/04855a09/f5d6/44ce/b5e5/fd60e590e695/640x640.jpg"
+    },
+    {
+      "title1": null,
+      "singer": "It's Where My Demons Hide",
+      "by": "Album by Where My Love Lies",
+      "noOfTracks": "2013",
+      "imageUrl": "https://m.media-amazon.com/images/I/91yIeR2We0L._SS500_.jpg"
+    },
+    {
+      "title1": null,
+      "singer": "Favs",
+      "by": "by user",
+      "noOfTracks": "445 ITEMS",
+      "imageUrl": "https://resources.tidal.com/images/04855a09/f5d6/44ce/b5e5/fd60e590e695/640x640.jpg"
+    },
+    {
+      "title1": null,
+      "singer": "Astrid",
+      "by": "by user",
+      "noOfTracks": "67 TRACKS",
+      "imageUrl": "https://img.huffingtonpost.com/asset/59d5e6c52d0000ef08308c21.png?ops=crop_26_2_606_396%2Cscalefit_720_noupscale"
+    },
+    {
+      "title1": null,
+      "singer": "Side Effects (eat. Emily Warren)",
+      "by": "Track Radio",
+      "noOfTracks": null,
+      "imageUrl": "https://i.ytimg.com/vi/bONtHbmV78U/maxresdefault.jpg"
+    }
+  ],
+  "for you": [
+    {
+      "title1": "DAILY UPDATED MIX",
+      "singer": "My Mix 1",
+      "by": "with Jp Cooper, Rhys, Tyler Ward and more",
+      "noOfTracks": null,
+      "imageUrl": "https://cdn1.umg3.net/129/files/2020/04/5ccc1035ba46f_.jpg"
+    },
+    {
+      "title1": "DAILY UPDATED MIX",
+      "singer": "My Daily Discovery",
+      "by": "with Songs by new and familiar artists",
+      "noOfTracks": null,
+      "imageUrl": "https://www.bollywoodhungama.com/wp-content/uploads/2020/08/Sonu-Nigam-to-performing-at-world%E2%80%99s-first-live-indoor-music-concert-since-Covid-19-hit.jpg"
+    },
+    {
+      "title1": "GET MOVING",
+      "singer": "We The Fire",
+      "by": "by AC Milan",
+      "noOfTracks": null,
+      "imageUrl": "https://resources.tidal.com/images/6ffde5f3/be92/4763/8b34/4efca8480c14/1080x1080.jpg"
+    },
+    {
+      "title1": "NEW ALBUM FOR YOU",
+      "singer": "One Night In Malibu",
+      "by": "by OneRepublic",
+      "noOfTracks": "2022",
+      "imageUrl": "https://www.beatnaija.com/wp-content/uploads/2022/02/album-onerepublic-%E2%80%93-one-night-in-malibu-Free-Mp3-Download-Beatnaija.com_.jpg"
+    },
+    {
+      "title1": "ONLY THE BEST",
+      "singer": "TIDAL's Top Hits",
+      "by": "by TIDAL",
+      "noOfTracks": "100 TRACKS",
+      "imageUrl": "https://resources.tidal.com/images/dba6ef57/fcff/41da/8548/6ac5761e22df/640x640.jpg"
+    }
+  ],
+  "mixes for you": [
+    {
+      "title1": null,
+      "singer": "My Daily Discovery",
+      "by": "Songs by new and familiar artists",
+      "noOfTracks": null,
+      "imageUrl": "https://tidal.com/_nuxt/img/mydailydiscovery-cover.c049cc2.jpg"
+    },
+    {
+      "title1": null,
+      "singer": "My Mix 1",
+      "by": "Jp Cooper, Rhys, Tyler Ward and more",
+      "noOfTracks": null,
+      "imageUrl": "https://i.scdn.co/image/ab67616d00001e024900d685b3456b1bddb927a7"
+    },
+    {
+      "title1": null,
+      "singer": "My Mix 2",
+      "by": "FELIX SANDMAN, Julie Bergan, Dixie and more",
+      "noOfTracks": null,
+      "imageUrl": "https://is4-ssl.mzstatic.com/image/thumb/Music125/v4/ec/f8/4f/ecf84f15-3c7b-0686-6fad-9389dfe37527/source/2000x2000bb.jpg"
+    },
+    {
+      "title1": null,
+      "singer": "My Mix 3",
+      "by": "Astrid S, Bea Miller, Noah Cyprus and more",
+      "noOfTracks": null,
+      "imageUrl": "https://i.scdn.co/image/ab67616d0000b27359bb0c0ba0d744327a0f4326"
+    },
+    {
+      "title1": null,
+      "singer": "My Mix 4",
+      "by": "Frank Walker, Seeb, The Chainsmokers and more",
+      "noOfTracks": null,
+      "imageUrl": "https://is1-ssl.mzstatic.com/image/thumb/Music123/v4/73/12/aa/7312aa1d-cc82-4198-2842-4660aec70904/886448381082.jpg/400x400bb.jpg"
+    },
+    {
+      "title1": null,
+      "singer": "My Mix 5",
+      "by": "Matoma, Ellie Goulding, Zara Larsson and more",
+      "noOfTracks": null,
+      "imageUrl": "https://cdns-images.dzcdn.net/images/artist/ba6f651e38a361a823f63a360eac4f02/500x500.jpg"
+    },
+    {
+      "title1": null,
+      "singer": "My Mix 6",
+      "by": "R3HAB, Gryffin, Alesso and more",
+      "noOfTracks": null,
+      "imageUrl": "https://lastfm.freetls.fastly.net/i/u/500x500/03b042f297116a7b238e1b20e1e42574.jpg"
+    }
+  ],
+  "because you listened to": [
+    {
+      "title1": null,
+      "singer": "Julie Bergan",
+      "by": "by Me",
+      "noOfTracks": "65 TRACKS",
+      "imageUrl": "https://i1.sndcdn.com/avatars-000521532990-x5gkap-t500x500.jpg"
+    },
+    {
+      "title1": null,
+      "singer": "Julia Michaels",
+      "by": "Album by Sonu Nigam",
+      "noOfTracks": "2019",
+      "imageUrl": "https://dailycollegian.com/wp-content/uploads/2019/02/Julia-Michaels-900x900.jpg"
+    },
+    {
+      "title1": null,
+      "singer": "Ina Wroldsen",
+      "by": "Songs by new and familiar...",
+      "noOfTracks": null,
+      "imageUrl": "https://static.wikia.nocookie.net/littlemix/images/1/16/Ina.jpeg/revision/latest/top-crop/width/360/height/450?cb=20180826193443"
+    },
+    {
+      "title1": null,
+      "singer": "FLETCHER",
+      "by": "by Me",
+      "noOfTracks": null,
+      "imageUrl": "https://mtv.mtvnimages.com/uri/mgid:ao:image:mtv.com:690615?quality=0.8&format=jpg"
+    },
+    {
+      "title1": null,
+      "singer": "Zara Larsson",
+      "by": "Album by Sonu Nigam",
+      "noOfTracks": null,
+      "imageUrl": "https://i.guim.co.uk/img/media/e768f4ff2e7dcad0b2976a46061783418ce2bf73/0_6_1654_993/master/1654.jpg?width=1200&height=1200&quality=85&auto=format&fit=crop&s=78aab106233dfa3ba743fd4d156eb641"
+    },
+    {
+      "title1": null,
+      "singer": "Rita Ora",
+      "by": "Songs by new and familiar...",
+      "noOfTracks": null,
+      "imageUrl": "https://thenerdstash.com/wp-content/uploads/2022/02/rita-ora-on-disneyplus.jpg.webp"
+    },
+    {
+      "title1": null,
+      "singer": "Sval",
+      "by": "by Me",
+      "noOfTracks": null,
+      "imageUrl": "https://yt3.ggpht.com/ytc/AKedOLTN7hN0FXrfTi82OwrRNwzqMwoVUcXuV1ebTpxQfg=s900-c-k-c0x00ffffff-no-rj"
+    },
+    {
+      "title1": null,
+      "singer": "Clara Mae",
+      "by": "Artist, Performer, Songwriter, Producer",
+      "noOfTracks": null,
+      "imageUrl": "https://edm.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTY4MTg1MTQ2MzM4NDUyNzUz/clara-mae-gold-pink-press-banner.jpg"
+    }
+  ],
+  "suggested albums for you": [
+    {
+      "title1": null,
+      "singer": "Astrid",
+      "by": "by Me",
+      "noOfTracks": "65 TRACKS",
+      "imageUrl": "https://www.europavox.com/wp-content/uploads/2017/03/astrid-s-2019.jpg"
+    },
+    {
+      "title1": null,
+      "singer": "Sonu Nigam",
+      "by": "Album by Sonu Nigam",
+      "noOfTracks": "2019",
+      "imageUrl": "https://www.bollywoodhungama.com/wp-content/uploads/2020/08/Sonu-Nigam-to-performing-at-world%E2%80%99s-first-live-indoor-music-concert-since-Covid-19-hit.jpg"
+    },
+    {
+      "title1": null,
+      "singer": "My Daily Discovery",
+      "by": "Songs by new and familiar...",
+      "noOfTracks": null,
+      "imageUrl": "https://tidal.com/_nuxt/img/mydailydiscovery-cover.c049cc2.jpg"
+    },
+    {
+      "title1": null,
+      "singer": "Astrid",
+      "by": "by Me",
+      "noOfTracks": "65 TRACKS",
+      "imageUrl": "https://www.europavox.com/wp-content/uploads/2017/03/astrid-s-2019.jpg"
+    },
+    {
+      "title1": null,
+      "singer": "Sonu Nigam",
+      "by": "Album by Sonu Nigam",
+      "noOfTracks": "2019",
+      "imageUrl": "https://www.bollywoodhungama.com/wp-content/uploads/2020/08/Sonu-Nigam-to-performing-at-world%E2%80%99s-first-live-indoor-music-concert-since-Covid-19-hit.jpg"
+    },
+    {
+      "title1": null,
+      "singer": "My Daily Discovery",
+      "by": "Songs by new and familiar...",
+      "noOfTracks": null,
+      "imageUrl": "https://tidal.com/_nuxt/img/mydailydiscovery-cover.c049cc2.jpg"
+    },
+    {
+      "title1": null,
+      "singer": "Astrid",
+      "by": "by Me",
+      "noOfTracks": "65 TRACKS",
+      "imageUrl": "https://www.europavox.com/wp-content/uploads/2017/03/astrid-s-2019.jpg"
+    },
+    {
+      "title1": null,
+      "singer": "Sonu Nigam",
+      "by": "Album by Sonu Nigam",
+      "noOfTracks": "2019",
+      "imageUrl": "https://www.bollywoodhungama.com/wp-content/uploads/2020/08/Sonu-Nigam-to-performing-at-world%E2%80%99s-first-live-indoor-music-concert-since-Covid-19-hit.jpg"
+    },
+    {
+      "title1": null,
+      "singer": "My Daily Discovery",
+      "by": "Songs by new and familiar...",
+      "noOfTracks": null,
+      "imageUrl": "https://tidal.com/_nuxt/img/mydailydiscovery-cover.c049cc2.jpg"
+    },
+    {
+      "title1": null,
+      "singer": "Astrid",
+      "by": "by Me",
+      "noOfTracks": "65 TRACKS",
+      "imageUrl": "https://www.europavox.com/wp-content/uploads/2017/03/astrid-s-2019.jpg"
+    },
+    {
+      "title1": null,
+      "singer": "Sonu Nigam",
+      "by": "Album by Sonu Nigam",
+      "noOfTracks": "2019",
+      "imageUrl": "https://www.bollywoodhungama.com/wp-content/uploads/2020/08/Sonu-Nigam-to-performing-at-world%E2%80%99s-first-live-indoor-music-concert-since-Covid-19-hit.jpg"
+    }
+  ],
+  "suggested artists for you": [
+    {
+      "title1": null,
+      "singer": "Astrid",
+      "by": "by Me",
+      "noOfTracks": "65 TRACKS",
+      "imageUrl": "https://www.europavox.com/wp-content/uploads/2017/03/astrid-s-2019.jpg"
+    },
+    {
+      "title1": null,
+      "singer": "Sonu Nigam",
+      "by": "Album by Sonu Nigam",
+      "noOfTracks": "2019",
+      "imageUrl": "https://www.bollywoodhungama.com/wp-content/uploads/2020/08/Sonu-Nigam-to-performing-at-world%E2%80%99s-first-live-indoor-music-concert-since-Covid-19-hit.jpg"
+    },
+    {
+      "title1": null,
+      "singer": "My Daily Discovery",
+      "by": "Songs by new and familiar...",
+      "noOfTracks": null,
+      "imageUrl": "https://tidal.com/_nuxt/img/mydailydiscovery-cover.c049cc2.jpg"
+    },
+    {
+      "title1": null,
+      "singer": "Astrid",
+      "by": "by Me",
+      "noOfTracks": "65 TRACKS",
+      "imageUrl": "https://www.europavox.com/wp-content/uploads/2017/03/astrid-s-2019.jpg"
+    },
+    {
+      "title1": null,
+      "singer": "Sonu Nigam",
+      "by": "Album by Sonu Nigam",
+      "noOfTracks": "2019",
+      "imageUrl": "https://www.bollywoodhungama.com/wp-content/uploads/2020/08/Sonu-Nigam-to-performing-at-world%E2%80%99s-first-live-indoor-music-concert-since-Covid-19-hit.jpg"
+    },
+    {
+      "title1": null,
+      "singer": "My Daily Discovery",
+      "by": "Songs by new and familiar...",
+      "noOfTracks": null,
+      "imageUrl": "https://tidal.com/_nuxt/img/mydailydiscovery-cover.c049cc2.jpg"
+    },
+    {
+      "title1": null,
+      "singer": "Astrid",
+      "by": "by Me",
+      "noOfTracks": "65 TRACKS",
+      "imageUrl": "https://www.europavox.com/wp-content/uploads/2017/03/astrid-s-2019.jpg"
+    },
+    {
+      "title1": null,
+      "singer": "Sonu Nigam",
+      "by": "Album by Sonu Nigam",
+      "noOfTracks": "2019",
+      "imageUrl": "https://www.bollywoodhungama.com/wp-content/uploads/2020/08/Sonu-Nigam-to-performing-at-world%E2%80%99s-first-live-indoor-music-concert-since-Covid-19-hit.jpg"
+    },
+    {
+      "title1": null,
+      "singer": "My Daily Discovery",
+      "by": "Songs by new and familiar...",
+      "noOfTracks": null,
+      "imageUrl": "https://tidal.com/_nuxt/img/mydailydiscovery-cover.c049cc2.jpg"
+    },
+    {
+      "title1": null,
+      "singer": "Astrid",
+      "by": "by Me",
+      "noOfTracks": "65 TRACKS",
+      "imageUrl": "https://www.europavox.com/wp-content/uploads/2017/03/astrid-s-2019.jpg"
+    },
+    {
+      "title1": null,
+      "singer": "Sonu Nigam",
+      "by": "Album by Sonu Nigam",
+      "noOfTracks": "2019",
+      "imageUrl": "https://www.bollywoodhungama.com/wp-content/uploads/2020/08/Sonu-Nigam-to-performing-at-world%E2%80%99s-first-live-indoor-music-concert-since-Covid-19-hit.jpg"
+    }
+  ],
+  "recent activity": [
+    {
+      "title1": null,
+      "singer": "Astrid",
+      "by": "by Me",
+      "noOfTracks": "65 TRACKS",
+      "imageUrl": "https://www.europavox.com/wp-content/uploads/2017/03/astrid-s-2019.jpg"
+    },
+    {
+      "title1": null,
+      "singer": "Sonu Nigam",
+      "by": "Album by Sonu Nigam",
+      "noOfTracks": "2019",
+      "imageUrl": "https://www.bollywoodhungama.com/wp-content/uploads/2020/08/Sonu-Nigam-to-performing-at-world%E2%80%99s-first-live-indoor-music-concert-since-Covid-19-hit.jpg"
+    },
+    {
+      "title1": null,
+      "singer": "My Daily Discovery",
+      "by": "Songs by new and familiar...",
+      "noOfTracks": null,
+      "imageUrl": "https://tidal.com/_nuxt/img/mydailydiscovery-cover.c049cc2.jpg"
+    },
+    {
+      "title1": null,
+      "singer": "Astrid",
+      "by": "by Me",
+      "noOfTracks": "65 TRACKS",
+      "imageUrl": "https://www.europavox.com/wp-content/uploads/2017/03/astrid-s-2019.jpg"
+    },
+    {
+      "title1": null,
+      "singer": "Sonu Nigam",
+      "by": "Album by Sonu Nigam",
+      "noOfTracks": "2019",
+      "imageUrl": "https://www.bollywoodhungama.com/wp-content/uploads/2020/08/Sonu-Nigam-to-performing-at-world%E2%80%99s-first-live-indoor-music-concert-since-Covid-19-hit.jpg"
+    },
+    {
+      "title1": null,
+      "singer": "My Daily Discovery",
+      "by": "Songs by new and familiar...",
+      "noOfTracks": null,
+      "imageUrl": "https://tidal.com/_nuxt/img/mydailydiscovery-cover.c049cc2.jpg"
+    },
+    {
+      "title1": null,
+      "singer": "Astrid",
+      "by": "by Me",
+      "noOfTracks": "65 TRACKS",
+      "imageUrl": "https://www.europavox.com/wp-content/uploads/2017/03/astrid-s-2019.jpg"
+    },
+    {
+      "title1": null,
+      "singer": "Sonu Nigam",
+      "by": "Album by Sonu Nigam",
+      "noOfTracks": "2019",
+      "imageUrl": "https://www.bollywoodhungama.com/wp-content/uploads/2020/08/Sonu-Nigam-to-performing-at-world%E2%80%99s-first-live-indoor-music-concert-since-Covid-19-hit.jpg"
+    },
+    {
+      "title1": null,
+      "singer": "My Daily Discovery",
+      "by": "Songs by new and familiar...",
+      "noOfTracks": null,
+      "imageUrl": "https://tidal.com/_nuxt/img/mydailydiscovery-cover.c049cc2.jpg"
+    },
+    {
+      "title1": null,
+      "singer": "Astrid",
+      "by": "by Me",
+      "noOfTracks": "65 TRACKS",
+      "imageUrl": "https://www.europavox.com/wp-content/uploads/2017/03/astrid-s-2019.jpg"
+    },
+    {
+      "title1": null,
+      "singer": "Sonu Nigam",
+      "by": "Album by Sonu Nigam",
+      "noOfTracks": "2019",
+      "imageUrl": "https://www.bollywoodhungama.com/wp-content/uploads/2020/08/Sonu-Nigam-to-performing-at-world%E2%80%99s-first-live-indoor-music-concert-since-Covid-19-hit.jpg"
+    }
+  ]
+}

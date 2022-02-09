@@ -1,11 +1,13 @@
 import 'package:flutter/cupertino.dart' show CupertinoIcons;
 import 'package:flutter/material.dart';
+import 'package:hooks_riverpod/hooks_riverpod.dart';
 import 'package:tidal_ui_clone/core/components/widgets/custom_stacked_slider.dart';
 import 'package:tidal_ui_clone/feature/navigation/view/custom_navigation_bar.dart';
 import 'package:velocity_x/velocity_x.dart';
 
 import '../../../core/components/widgets/custom_icon_button.dart';
 import '../../../core/components/widgets/title_row.dart';
+import '../../../providers/image_slider_model_provider.dart';
 import 'genre_scroller.dart';
 
 class SearchPage extends StatelessWidget {
@@ -43,13 +45,13 @@ class SearchPage extends StatelessWidget {
       ),
       body: ListView(
         physics: const BouncingScrollPhysics(),
-        children: const [
-          TitleRow(
+        children: [
+          const TitleRow(
             title: 'Genres',
             showButton: true,
             buttonTitle: 'VIEW AS LIST',
           ),
-          GenreScroller(
+          const GenreScroller(
             genre1: [
               'Decades',
               'R&B/Soul',
@@ -80,9 +82,9 @@ class SearchPage extends StatelessWidget {
             ],
             //List.generate(11, (index) => 'Text2'),
           ),
-          SizedBox(height: 20),
-          TitleRow(title: 'Moods, Activities & Events'),
-          GenreScroller(
+          const SizedBox(height: 20),
+          const TitleRow(title: 'Moods, Activities & Events'),
+          const GenreScroller(
             genre1: [
               'Black History',
               'Wellness',
@@ -110,36 +112,53 @@ class SearchPage extends StatelessWidget {
               'Autumn',
             ],
           ),
-          SizedBox(height: 20),
-          CustomIconButton(
+          const SizedBox(height: 20),
+          const CustomIconButton(
             label: 'New',
             icon: Icons.calendar_today_outlined,
           ),
-          CustomIconButton(
+          const CustomIconButton(
             label: 'Top',
             icon: Icons.hourglass_top_outlined,
           ),
-          CustomIconButton(
+          const CustomIconButton(
             label: 'Staff Picks',
             icon: Icons.star_border_rounded,
           ),
-          CustomIconButton(
+          const CustomIconButton(
             label: 'Shows & Podcasts',
             icon: Icons.settings_input_antenna,
           ),
-          CustomIconButton(
+          const CustomIconButton(
             label: 'TIDAL Rising',
             icon: Icons.tour_outlined,
           ),
-          CustomIconButton(
+          const CustomIconButton(
             label: 'Clean Content',
             icon: Icons.class_,
           ),
-          SizedBox(height: 60),
-          TitleRow(title: 'Suggested Albums for You'),
-          CustomStackedSlider(),
-          TitleRow(title: 'Suggested Artists for You'),
-          CustomStackedSlider(isCircular: true),
+          const SizedBox(height: 60),
+          const TitleRow(title: 'Suggested Albums for You'),
+          HookConsumer(
+            builder: (context, ref, child) => ref
+                .watch(imageSliderModelProviderRef('suggested albums for you'))
+                .maybeWhen(
+                  data: (model) => CustomStackedSlider(models: model),
+                  orElse: () => const Center(child: LinearProgressIndicator()),
+                ),
+          ),
+          const TitleRow(title: 'Suggested Artists for You'),
+          HookConsumer(
+            builder: (context, ref, child) => ref
+                .watch(imageSliderModelProviderRef('suggested artists for you'))
+                .maybeWhen(
+                  data: (model) => CustomStackedSlider(
+                    models: model,
+                    isCircular: true,
+                  ),
+                  orElse: () => const Center(child: LinearProgressIndicator()),
+                ),
+          ),
         ],
       ).pOnly(left: 15),
       bottomNavigationBar: const CustomNavigationBar(),

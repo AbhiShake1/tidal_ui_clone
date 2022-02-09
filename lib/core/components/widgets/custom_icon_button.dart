@@ -24,7 +24,7 @@ class CustomIconButton extends StatelessWidget {
             30.widthBox,
             label.text.scale(1.3).bold.make(),
           ],
-        ).pOnly(left: 15, top: 20)
+        ).pOnly(left: 15, top: 20, bottom: 10)
       ].toList(),
     );
   }
